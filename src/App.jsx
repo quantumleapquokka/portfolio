@@ -88,7 +88,7 @@ function App() {
             <a href="#projects" className="button primary">
               View Projects
             </a>
-            <a href="/public/Resume_Samantha Siew.pdf" className="button secondary">
+            <a href="https://docs.google.com/document/d/1bjAlmE8YYiKMWxu15cRwYPjGR2CDgZV0/edit?usp=sharing&ouid=117689381125272830563&rtpof=true&sd=true" className="button secondary">
               Resume
             </a>
           </div>
@@ -149,7 +149,7 @@ function App() {
           <p>
             Connect with me! {' '}
             <a 
-              href="www.linkedin.com/in/samanthasiew1354"
+              href="https://www.linkedin.com/in/samanthasiew1354"
               target="_blank"
               rel="noopener noreferrer"
               >LinkedIn</a>
