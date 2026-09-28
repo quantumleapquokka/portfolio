@@ -82,6 +82,14 @@ function App() {
               </div>
               <strong>10/10</strong>
             </div>
+
+            <div className="stat-row">
+              <span>Team Player</span>
+              <div className="stat-bar">
+                <div className="stat-fill width-100"></div>
+              </div>
+              <strong>10/10</strong>
+            </div>
           </div>
 
           <div className="hero-buttons">
