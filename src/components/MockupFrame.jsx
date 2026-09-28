@@ -1,7 +1,7 @@
 function MockupFrame({ src, alt }) {
   return (
     <div className="mockup-frame">
-      <img src={src} alt={alt} />
+      <img src={`${import.meta.env.BASE_URL}${src}`} alt={alt} />
     </div>
   )
 }

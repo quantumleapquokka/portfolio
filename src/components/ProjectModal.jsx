@@ -10,14 +10,14 @@ function ProjectModal({ project, onClose }) {
           </p>
 
           <button type="button" onClick={onClose} aria-label="Close project">
-            ×
+            ✖
           </button>
         </div>
 
         <div className="modal-content">
           <div className="modal-preview">
             {project.image ? (
-              <img src={project.image} alt={`${project.title} expanded view`} />
+              <img src={`${import.meta.env.BASE_URL}${project.image}`} alt={`${project.title} expanded view`} />
             ) : (
               <div className="project-placeholder large">
                 <span>{project.icon}</span>

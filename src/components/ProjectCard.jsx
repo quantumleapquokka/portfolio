@@ -12,14 +12,14 @@ function ProjectCard({ project, number, onClick }) {
           <>
             <img
               className="preview-bg"
-              src={project.image}
+              src={`${import.meta.env.BASE_URL}${project.image}`}
               alt=""
               aria-hidden="true"
             />
 
             <img
               className="preview-main"
-              src={project.image}
+              src={`${import.meta.env.BASE_URL}${project.image}`}
               alt={`${project.title} preview`}
             />
 

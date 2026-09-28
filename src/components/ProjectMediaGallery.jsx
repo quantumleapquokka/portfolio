@@ -11,9 +11,9 @@ function ProjectMediaGallery({ media }) {
         {media.map((item) => (
           <figure className="media-item" key={item.src}>
             {item.type === 'video' ? (
-              <video src={item.src} controls muted playsInline />
+              <video src={`${import.meta.env.BASE_URL}${item.src}`} controls muted playsInline />
             ) : (
-              <img src={item.src} alt={item.alt || ''} />
+              <img src={`${import.meta.env.BASE_URL}${item.src}`} alt={item.alt || ''} />
             )}
 
             {item.caption && <figcaption>{item.caption}</figcaption>}
